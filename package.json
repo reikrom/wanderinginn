@@ -1,15 +1,16 @@
 {
-  "name": "wanderinginn",
-  "version": "1.0.0",
-  "description": "html to epub",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "reikrom",
-  "license": "MIT",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "node-fetch": "^3.3.0"
-  }
+    "name": "wanderinginn",
+    "version": "1.0.0",
+    "description": "html to epub",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "reikrom",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.12",
+        "epub-gen": "^0.1.0",
+        "node-fetch": "2.6.1"
+    }
 }
